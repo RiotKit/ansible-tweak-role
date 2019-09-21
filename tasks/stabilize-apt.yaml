@@ -1,4 +1,5 @@
 - name: Uninstall unattended-upgrades
+  become: yes
   apt:
       name: unattended-upgrades
       state: absent

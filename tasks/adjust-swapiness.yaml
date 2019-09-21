@@ -1,4 +1,5 @@
 - name: Adjust swappiness
+  become: yes
   sysctl:
       name: vm.swappiness
       value: "{{ swappiness }}"

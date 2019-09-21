@@ -1,4 +1,5 @@
 - name: Uninstall qemu-guest-agent
+  become: yes
   apt:
       name: qemu-guest-agent
       state: absent
