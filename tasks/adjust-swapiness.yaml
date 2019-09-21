@@ -1,0 +1,6 @@
+- name: Adjust swappiness
+  sysctl:
+      name: vm.swappiness
+      value: "{{ swappiness }}"
+      state: present
+  when: adjust_swappiness|bool

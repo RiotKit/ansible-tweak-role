@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Andrew Johnson
+  description: Tune the server right after clean install
+  company: RiotKit
+  license: MIT
+  min_ansible_version: 1.2
+
+  galaxy_tags:
+    - ubuntu
+    - stabilize
+    - docker
+    - riotkit
+    - anarchist
+
+dependencies: []

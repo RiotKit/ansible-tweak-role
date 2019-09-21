@@ -1,0 +1,5 @@
+- name: Set up the docker daemon
+  template:
+      src: etc/docker/daemon.json
+      dest: /etc/docker/daemon.json
+  when: tune_docker|bool

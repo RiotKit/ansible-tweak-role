@@ -1,0 +1,4 @@
+- include: stabilize-apt.yaml
+- include: remove-rubbish-packages.yaml
+- include: tune-docker.yaml
+- include: adjust-swapiness.yaml

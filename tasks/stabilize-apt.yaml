@@ -1,0 +1,5 @@
+- name: Uninstall unattended-upgrades
+  apt:
+      name: unattended-upgrades
+      state: absent
+  when: remove_unattended_upgrades|bool
